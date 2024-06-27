@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Examples">
+      <UniqueIdentifier>{43013eec-fffa-4501-b199-f410a7124a14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\gameSettings">
+      <UniqueIdentifier>{be68f725-8a40-462d-8d2f-109bc6309849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Saves">
+      <UniqueIdentifier>{a55ff0e7-1afb-4b28-984e-0386edb587b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\DefaultEnemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\DestroyerEnemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\FileManagercpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\GameLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\GWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\HunterEnemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\InfoPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\KeyboardImput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\TextBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\Terr.Wars.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\Animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\DefaultEnemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\DestroyerEnemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\FileManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\GameLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\GWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\HunterEnemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\InfoPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\KeyboardImput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\TextBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Xonix-main\Xonix-main\resources\BgPic.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Xonix-main\Xonix-main\resources\button.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Xonix-main\Xonix-main\resources\enemy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Xonix-main\Xonix-main\resources\enemyHunt.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Xonix-main\Xonix-main\resources\Logo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Xonix-main\Xonix-main\resources\menuImg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Xonix-main\Xonix-main\resources\player.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Xonix-main\Xonix-main\resources\Wall.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Xonix-main\Xonix-main\resources\Examples\pacxon.gif">
+      <Filter>Resource Files\Examples</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Xonix-main\Xonix-main\resources\DIGIB.TTF">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Xonix-main\Xonix-main\resources\gameSettings\levels.txt">
+      <Filter>Resource Files\gameSettings</Filter>
+    </Text>
+    <Text Include="..\Xonix-main\Xonix-main\resources\gameSettings\map.txt">
+      <Filter>Resource Files\gameSettings</Filter>
+    </Text>
+    <Text Include="..\Xonix-main\Xonix-main\resources\Saves\gameSave.txt">
+      <Filter>Resource Files\Saves</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

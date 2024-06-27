@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\Animation.cpp" />
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\Button.cpp" />
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\DefaultEnemy.cpp" />
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\DestroyerEnemy.cpp" />
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\Enemy.cpp" />
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\Entity.cpp" />
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\FileManagercpp.cpp" />
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\GameLogic.cpp" />
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\GWindow.cpp" />
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\HunterEnemy.cpp" />
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\InfoPanel.cpp" />
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\KeyboardImput.cpp" />
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\Map.cpp" />
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\Menu.cpp" />
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\Player.cpp" />
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\TextBox.cpp" />
+    <ClCompile Include="..\Xonix-main\Xonix-main\src\Terr.Wars.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\Animation.h" />
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\Button.h" />
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\DefaultEnemy.h" />
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\DestroyerEnemy.h" />
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\Enemy.h" />
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\Entity.h" />
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\FileManager.h" />
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\GameLogic.h" />
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\GWindow.h" />
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\HunterEnemy.h" />
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\InfoPanel.h" />
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\KeyboardImput.h" />
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\Map.h" />
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\Menu.h" />
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\Player.h" />
+    <ClInclude Include="..\Xonix-main\Xonix-main\src\TextBox.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Xonix-main\Xonix-main\resources\BgPic.png" />
+    <Image Include="..\Xonix-main\Xonix-main\resources\button.png" />
+    <Image Include="..\Xonix-main\Xonix-main\resources\enemy.png" />
+    <Image Include="..\Xonix-main\Xonix-main\resources\enemyHunt.png" />
+    <Image Include="..\Xonix-main\Xonix-main\resources\Examples\pacxon.gif" />
+    <Image Include="..\Xonix-main\Xonix-main\resources\Logo.png" />
+    <Image Include="..\Xonix-main\Xonix-main\resources\menuImg.png" />
+    <Image Include="..\Xonix-main\Xonix-main\resources\player.png" />
+    <Image Include="..\Xonix-main\Xonix-main\resources\Wall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Xonix-main\Xonix-main\resources\DIGIB.TTF" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Xonix-main\Xonix-main\resources\gameSettings\levels.txt" />
+    <Text Include="..\Xonix-main\Xonix-main\resources\gameSettings\map.txt" />
+    <Text Include="..\Xonix-main\Xonix-main\resources\Saves\gameSave.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6b050bb4-1f5c-40c2-84f9-5150dfc86c89}</ProjectGuid>
+    <RootNamespace>TerrorWars</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)\libraries\include\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\libraries\lib\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)\libraries\include\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\libraries\lib\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)\libraries\include\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\libraries\lib\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(SolutionDir)\libraries\include\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\libraries\lib\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
